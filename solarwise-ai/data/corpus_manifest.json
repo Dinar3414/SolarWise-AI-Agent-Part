@@ -1,0 +1,278 @@
+[
+  {
+    "file": "deye_sun-18-25k-g05.pdf",
+    "manufacturer": "Deye",
+    "model": "SUN-18K-25K-G05",
+    "revision": "2024-04-16",
+    "type": "inverter",
+    "pages": 2,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "growatt_mod-10-15ktl3-x.pdf",
+    "manufacturer": "Growatt",
+    "model": "MOD 10000-15000TL3-X",
+    "revision": "",
+    "type": "inverter",
+    "pages": 2,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "ja_jam66d45_605-630_lb_20250625.pdf",
+    "manufacturer": "JA Solar",
+    "model": "JAM66D45 605-630/LB",
+    "revision": "Global-EN-20250625A",
+    "type": "module",
+    "pages": 2,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "ja_jam66d45_610-630_lb_20240529.pdf",
+    "manufacturer": "JA Solar",
+    "model": "JAM66D45 610-630/LB",
+    "revision": "Global-EN-20240529A",
+    "type": "module",
+    "pages": 2,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "longi_lr7-72hgd_585-620m.pdf",
+    "manufacturer": "LONGi",
+    "model": "LR7-72HGD 585-620M",
+    "revision": "20230901 Preliminary V05",
+    "type": "module",
+    "pages": 2,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "longi_lr7-72hvh_630-650m.pdf",
+    "manufacturer": "LONGi",
+    "model": "LR7-72HVH 630-650M",
+    "revision": "Draft 20241118",
+    "type": "module",
+    "pages": 2,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "longi_lr8-66hgd_595-625m.pdf",
+    "manufacturer": "LONGi",
+    "model": "LR8-66HGD 595-625M",
+    "revision": "20240705V03",
+    "type": "module",
+    "pages": 2,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "schneider_c60h-dc_a9n61515.pdf",
+    "manufacturer": "Schneider Electric",
+    "model": "Acti9 C60H-DC A9N61515",
+    "revision": "",
+    "type": "protection",
+    "pages": 4,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "solis_s5-gc_25-40k.pdf",
+    "manufacturer": "Solis",
+    "model": "S5-GC 25K-40K",
+    "revision": "",
+    "type": "inverter",
+    "pages": 2,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "solis_s5-gc_50-60k.pdf",
+    "manufacturer": "Solis",
+    "model": "S5-GC 50K-60K",
+    "revision": "",
+    "type": "inverter",
+    "pages": 2,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "solis_s6-gc_80-125k.pdf",
+    "manufacturer": "Solis",
+    "model": "S6-GC 80K-125K",
+    "revision": "V3.9",
+    "type": "inverter",
+    "pages": 2,
+    "extraction": [
+      "text-layer"
+    ],
+    "source_url": "(public manufacturer datasheet supplied by project team)"
+  },
+  {
+    "file": "10Kw- ONG (Individual Price).docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "12.5kw - ONG.docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "200Kw-ONG.docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "20kw - ONG.docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "25kw-ONG Cumilla.docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "38.44Kw-ONG.docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "3kw on grid.docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "3Kw ONG (Individual Price).docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "50kw-ONG (Noakhali Tin project).docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "5Kw- ONG (Individual Price).docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "80Kw-ONG.docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  },
+  {
+    "file": "9kw - ONG.docx",
+    "manufacturer": "Labiba Engineering & Trading Company",
+    "model": "ON-Grid Solar Power Offer",
+    "revision": "project offer",
+    "type": "offer",
+    "pages": 1,
+    "extraction": [
+      "docx"
+    ],
+    "source_url": "(supplied by project team)"
+  }
+]

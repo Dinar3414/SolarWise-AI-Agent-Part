@@ -1,0 +1,47 @@
+/* SolarWise components — only var(--sw-*) tokens, no raw hex. See design/DESIGN_SYSTEM.md */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap');
+html, body, [class*="css"] { font-family: var(--sw-primitive-font-sans); color: var(--sw-semantic-text-primary); }
+.stApp { background: var(--sw-semantic-surface-page); }
+h1, h2, h3 { font-family: var(--sw-primitive-font-display); letter-spacing: -0.01em; color: var(--sw-semantic-text-primary); }
+.block-container { padding-top: var(--sw-primitive-space-5); max-width: 1180px; }
+
+.sw-header { background: var(--sw-semantic-surface-inverse); color: var(--sw-semantic-text-inverse); border-radius: var(--sw-primitive-radius-lg);
+  padding: var(--sw-primitive-space-5); margin-bottom: var(--sw-primitive-space-4); display: flex; align-items: center; gap: var(--sw-primitive-space-4); box-shadow: var(--sw-primitive-shadow-md); }
+.sw-header .sw-logo { width: 44px; height: 44px; border: 1px solid var(--sw-primitive-color-slate-400); border-radius: var(--sw-primitive-radius-md);
+  display: grid; place-items: center; font-family: var(--sw-primitive-font-display); font-size: var(--sw-primitive-size-md); font-weight: 700; letter-spacing: .08em; }
+.sw-header h1 { color: var(--sw-semantic-text-inverse); margin: 0; font-size: var(--sw-primitive-size-xl); }
+.sw-header p { margin: 2px 0 0; color: var(--sw-primitive-color-slate-200); font-size: var(--sw-primitive-size-sm); }
+
+.sw-banner { background: var(--sw-component-banner-bg); color: var(--sw-component-banner-fg); border-left: 4px solid var(--sw-semantic-action-primary);
+  border-radius: var(--sw-primitive-radius-md); padding: var(--sw-primitive-space-3) var(--sw-primitive-space-4); font-size: var(--sw-primitive-size-sm); margin-bottom: var(--sw-primitive-space-4); }
+
+.sw-card { background: var(--sw-component-card-bg); border: 1px solid var(--sw-component-card-border); border-radius: var(--sw-component-card-radius);
+  box-shadow: var(--sw-component-card-shadow); padding: var(--sw-component-card-padding); margin-bottom: var(--sw-primitive-space-4); }
+.sw-card h4 { margin: 0 0 var(--sw-primitive-space-2); font-size: var(--sw-primitive-size-md); display: flex; align-items: center; justify-content: space-between; }
+.sw-metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--sw-primitive-space-3); margin: var(--sw-primitive-space-3) 0; }
+.sw-metric { background: var(--sw-semantic-surface-page); border-radius: var(--sw-primitive-radius-md); padding: var(--sw-primitive-space-3) var(--sw-primitive-space-4); }
+.sw-metric .v { font-family: var(--sw-component-metric-value-font); font-size: var(--sw-component-metric-value-size); font-weight: 700; }
+.sw-metric .l { font-size: var(--sw-primitive-size-xs); color: var(--sw-semantic-text-secondary); text-transform: uppercase; letter-spacing: .04em; }
+
+.sw-badge { display: inline-flex; align-items: center; gap: 6px; border-radius: var(--sw-component-badge-radius); padding: 2px 12px; font-size: var(--sw-primitive-size-xs); font-weight: 600; }
+.sw-badge--ok { background: var(--sw-semantic-status-ok-bg); color: var(--sw-semantic-status-ok-fg); }
+.sw-badge--warn { background: var(--sw-semantic-status-warn-bg); color: var(--sw-semantic-status-warn-fg); }
+.sw-badge--fail { background: var(--sw-semantic-status-fail-bg); color: var(--sw-semantic-status-fail-fg); }
+.sw-badge--incomplete { background: var(--sw-semantic-status-incomplete-bg); color: var(--sw-semantic-status-incomplete-fg); }
+.sw-note { font-size: var(--sw-primitive-size-sm); color: var(--sw-semantic-text-secondary); margin: 4px 0; }
+.sw-warn { font-size: var(--sw-primitive-size-sm); color: var(--sw-semantic-status-warn-fg); margin: 4px 0; }
+.sw-cite { display: block; background: var(--sw-component-citation-bg); font-family: var(--sw-component-citation-font); font-size: var(--sw-primitive-size-xs);
+  border-radius: var(--sw-primitive-radius-sm); padding: var(--sw-primitive-space-2) var(--sw-primitive-space-3); margin: var(--sw-primitive-space-2) 0; white-space: pre-wrap; }
+
+.stButton > button[kind="primary"], .stDownloadButton > button { background: var(--sw-component-button-bg); color: var(--sw-component-button-fg); border: 0;
+  border-radius: var(--sw-component-button-radius); font-weight: 600; }
+.stButton > button[kind="primary"]:hover, .stDownloadButton > button:hover { background: var(--sw-component-button-bg-hover); color: var(--sw-component-button-fg); }
+button:focus-visible, input:focus-visible { outline: 3px solid var(--sw-semantic-focus-ring) !important; outline-offset: 2px; }
+.stTabs [data-baseweb="tab-list"] { gap: 4px; border-bottom: 1px solid var(--sw-semantic-border-default); }
+.stTabs [data-baseweb="tab"] { font-weight: 600; padding: 12px 14px; }
+.stTabs [aria-selected="true"] { border-bottom-color: var(--sw-semantic-action-primary); }
+[data-testid="stSidebar"] { border-right: 1px solid var(--sw-semantic-border-default); }
+[data-testid="stChatMessage"] { border: 1px solid var(--sw-semantic-border-default); border-radius: var(--sw-primitive-radius-md); background: var(--sw-semantic-surface-card); margin-bottom: 8px; }
+[data-testid="stChatInput"] { border-radius: var(--sw-primitive-radius-md); }
+@media (max-width: 640px) { .sw-header { flex-direction: column; align-items: flex-start; } .block-container { padding-left: var(--sw-primitive-space-3); padding-right: var(--sw-primitive-space-3); } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
